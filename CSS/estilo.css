@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../Imagem/spectrum-electromagnetic-1280x720-lines-4k-5k-android-wallpaper-11331.jpg");
+    background-position: 50% 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    display: block;
+    background-color:rgb(3, 3, 32);;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px rgb(3, 3, 32);;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16pt;
+    box-sizing: border-box;
+    outline: none;
+}
+placeholder{
+    color: white;
+}
+
+div#corpo-form{
+    width: 420px;    /*largura do formulario na tela*/
+    margin: 130px auto 0px auto;   /*centralizar na tela*/
+}
+
+div#corpo-form-cad{
+    width: 420px;    /*largura do formulario na tela*/
+    margin: 100px auto 0px auto;   /*centralizar na tela*/
+    color: white;
+
+}
+div#corpo-form h1{ /*corpo do formulario*/
+    text-align: center; /*centralizar texto do formulario*/
+    color: rgba(28, 28, 80);
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+div#corpo-form-cad h1{ /*corpo do formulario*/
+    text-align: center; /*centralizar texto do formulario*/
+    color: rgba(28, 28, 80);
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+a{
+    color:rgb(3, 3, 74);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+a :hover{
+    text-decoration: underline rgb(3, 3, 74);
+}
+
+b{
+    color:red;
+    text-decoration: none;
+    display: block;
+    text-align:end;
+    
+}
+b :hover{
+    text-decoration: underline red;
+}
+
+input[type=submit]{
+    background-color: rgb(151, 151, 214);
+    color: rgb(3, 3, 72);;
+    outline-color: white;
+    cursor: pointer;
+    border: none;
+}
+div#msg-Sucesso{
+    width:400 px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: green;
+    border:1px green;
+}
+
+div#msg-Erro{
+    width:400 px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: red;
+    border:1px red;
+}
